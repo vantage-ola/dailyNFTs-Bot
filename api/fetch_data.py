@@ -6,6 +6,7 @@ API_KEY = config('API_KEY')
 
 # API parameters
 # https://rapidapi.com/NovusAPI/api/top-nft-sales/
+
 url = "https://top-nft-sales.p.rapidapi.com"
 headers = {
     'x-rapidapi-host': "top-nft-sales.p.rapidapi.com",
@@ -59,7 +60,7 @@ class NFT:
 
         """
         endpoint=("{}/sales/{}".format(url, self.freq))
-        return (requests.request("GET", endpoint, headers=headers).text)
+        return (requests.request("GET", endpoint, headers=headers).json())
 
     def collections(self):
 
@@ -69,7 +70,4 @@ class NFT:
         """
 
         endpoint=("{}/collections/{}".format(url, self.freq))
-        return (requests.request("GET", endpoint, headers=headers).text)
-
-
-
+        return (requests.request("GET", endpoint, headers=headers).json())

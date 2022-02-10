@@ -40,9 +40,9 @@ def tweet_data():
         try:
             for each in [data[n]]:
                 tweet=f'''{each['nft_name']} sold for {each['price']} {each['date']} \nLink: {each['nft_url']}'''
-                print(tweet)
-                #api.update_status(tweet)
-                 #delay next post for 1 minute
+                #print(tweet)
+                sleep(1)
+                api.update_status(tweet)
         except tweepy.TweepyException as  e:
             print(e.reason)
             sleep(2)

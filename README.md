@@ -1,7 +1,7 @@
 # DAILY NFTs BOT
 
  A twitter bot that tweets daily updates on the sales of the most expensive NFTs using the Top NFTs Sales API .
-
+![screenshot](./img/proof.png)
 ## Development
 ---
 

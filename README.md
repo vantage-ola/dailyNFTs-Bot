@@ -24,7 +24,7 @@ Get your Top NFTs Sales API key [https://rapidapi.com/NovusAPI/api/top-nft-sales
 ```shell 
 API_KEY=[TOP_NFTs_SALES_API_KEY]
 ```
-Include youR Twitter Developer API Credentials [https://developer.twitter.com/en/portal/dashboard](TwitterAPI)
+Include your Twitter Developer API Credentials [https://developer.twitter.com/en/portal/dashboard](TwitterAPI)
 ```shell 
 API_KEY=[TWITTER_API_KEY]
 API_KEY_SECRET=[TWITTER_API_KEY_SECRET]

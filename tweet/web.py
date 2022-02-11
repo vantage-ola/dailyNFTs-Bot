@@ -11,6 +11,7 @@ def job():
     tweet_data()
 
 scheduler = BackgroundScheduler()
+#send tweets every 24hrs
 scheduler.add_job(func=job, trigger="interval", day=1)
 scheduler.start()
 

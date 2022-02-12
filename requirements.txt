@@ -1,4 +1,4 @@
 tweepy == 4.5.0
 flask == 2.0.1
 apscheduler == 3.6.3
-decouple == 0.0.7
+python-decouple

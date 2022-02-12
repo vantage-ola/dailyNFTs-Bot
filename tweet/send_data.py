@@ -12,7 +12,7 @@ today_date = datetime.now().date()
 f= open(f'api/data/{today_date}-nfts-daily.json') #* path 
 
 #twitter credentials
-API_KEY = config('API_KEY')
+API_KEY = config('TWITTER_API_KEY')
 API_KEY_SECRET = config('API_KEY_SECRET')
 ACCESS_TOKEN = config('ACCESS_TOKEN')
 ACCESS_TOKEN_SECRET = config('ACCESS_TOKEN_SECRET')

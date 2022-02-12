@@ -2,7 +2,7 @@ import requests
 from decouple import config
 
 # rapid api credentials
-API_KEY = config('API_KEY')
+API_KEY = config('NFT_API_KEY')
 
 # API parameters
 # https://rapidapi.com/NovusAPI/api/top-nft-sales/

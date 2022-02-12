@@ -44,7 +44,7 @@ def tweet_data():
                 sleep(1)
                 api.update_status(tweet)
         except tweepy.TweepyException as  e:
-            print(e.reason)
+            print(e)
             sleep(2)
 
 if __name__ == '__main__':

@@ -12,7 +12,7 @@ def job():
 
 scheduler = BackgroundScheduler()
 #send tweets every 24hrs
-scheduler.add_job(func=job, trigger="interval", day=1)
+scheduler.add_job(func=job, trigger="interval", days=1)
 scheduler.start()
 
 atexit.register(lambda: scheduler.shutdown())

@@ -14,7 +14,12 @@ Name your branch based on the feature you are working on. For example, Writing R
 ```shell
 git checkout -b <your branch name>
 ```
-### 3. Create local environment ```.env```:
+### 3. Install Dependencies
+Install Python dependencies of the project
+```shell
+pip install -r requirements.txt
+```
+### 4. Create local environment ```.env```:
 Create .env file in local directory. 
 ```shell 
 touch .env

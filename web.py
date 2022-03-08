@@ -63,7 +63,7 @@ def job():
 
 
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=job, trigger="interval", seconds=60)
+scheduler.add_job(func=job, trigger="interval", days=1)
 scheduler.start()
 
 atexit.register(lambda: scheduler.shutdown())

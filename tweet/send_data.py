@@ -43,6 +43,7 @@ def tweet_data():
                 #print(tweet)
                 sleep(1)
                 api.update_status(tweet)
+                print(n, tweet)
         except tweepy.TweepyException as  e:
             print(e)
             sleep(2)
